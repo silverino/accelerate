@@ -15,7 +15,16 @@
 
 #masthead {
     background: none repeat scroll 0 0 red;
+
 }
+#masthead nav ul li {
+    float:left;
+    margin:0 10px;
+
+
+}
+
+
 
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
@@ -53,6 +62,40 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+article.case-study  {
+	margin:40px 0 0;
+}
+
+.case-study-sidebar p  {
+	font-size: 12px;
+
+	color: black;
+}
+
+aside.case-study-sidebar {
+	float:left;
+	width:314px;
+	margin:0 40px 0 0;
+}
+
+div.case-study-images {
+	float:left;
+	width:450px;
+	margin-bottom:50px;
+}
+
 p {
 	color: white;
+}
+
+.nf-field-label label {
+    margin: 0;
+    padding: 0;
+    font: 13px/1.65 'open sans', Arial, sans-serif;
+}
+.nf-field-container, #ninja_forms_required_items {
+    clear: both;
+    position: relative;
+    margin-bottom: 25px;
 }
